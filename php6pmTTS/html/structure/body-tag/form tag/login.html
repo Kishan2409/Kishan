@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>log in page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/font-awesome.css'>
+    <script src='main.js'></script>
+    <style>
+       
+       h1{
+            width: 300px;
+            height: auto;
+            margin: auto;
+            padding: 10px;
+            background-color:white;
+            color: gray;
+        }
+        hr 
+        {
+            width: 30%;
+            height: auto;
+            border: solid 2px black;
+        }
+        p{
+            font-size: 24px;
+        }
+
+        input
+        {
+            width: 350px;
+            height: 35px;
+            border: none;
+            border-bottom: solid 2px black;
+            background-color: palegreen;
+        }
+        input[type="submit"]
+        {
+            width: 150px;
+            height: 35px;
+            border: none;
+            border-bottom: solid 2px transparent;
+            background-color: black;
+            padding: 8px;
+            color: white;
+        }
+        </style>
+</head>
+<body>
+    <center>
+    <h1 align="center">:: Login ::</h1>
+    <hr>
+    <form method="post">
+        <input type="text" name="email" placeholder="Email *" required>
+        <br><br>
+        <input type="password" name="pass" placeholder="Password *" required>
+        <br><br>
+        <input type="submit" name="login" value="Login">
+        <a href="forgetpassword.html">Forget password</a>
+        <br><br>
+        <b>Don't have an Account ?<a href="register.html">Create your account ?</a></b>
+    </form>
+  
+    </center>
+</body>
+</html>
