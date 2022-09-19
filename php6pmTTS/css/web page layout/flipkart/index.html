@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Flipkart</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/font-awesome.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <script src='https://code.jquery.com/jquery-3.6.1.min.js'></script>
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+    <!-- slider here -->
+    <script>
+        $(document).ready(function(){
+
+            $("#slide").cycle("fade");
+        })
+        
+    </script>
+    
+
+<style>
+    body
+    {
+        margin: 0;
+        padding: 0;
+        background-color: lightgrey;
+    }
+    .head
+    {
+        top: 0%;
+        width: 100%;
+        height: 80px;
+        position: fixed;
+        background-color:#3276e3;
+    }
+    .head img
+    {
+        float: left;
+        width: 250px;
+        height: 80px;
+    }
+    .search
+    {
+        float: left;
+        margin-left: 2%;
+        width: auto;
+    }
+    .search input[type='text']
+    {
+        font-size: 30px;
+        border: black solid 2px;
+        border-radius: 5px;
+        margin-top:5%;
+        
+    }
+    .login
+    {
+        float: left;
+        margin-left: 2%;
+        width: auto;
+    }
+    .login input[type='button']
+    {
+        font-size: 20px;
+        border: black solid 2px;
+        border-radius: 5px;
+        margin-top:6%
+    } 
+    .login a
+    {
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+    }
+    .nev
+    {
+        margin-top: 6%;
+        width: 100%;
+        height: 125px;
+        background-color:white;    
+    }
+    .nev1
+    {
+        float: left;
+        margin-left: 1%;
+    }
+    .nev2
+    {
+        float: left;
+        margin-left: 1%;
+    }
+    .nev3
+    {
+        float: left;
+        margin-left: 1%;
+    }
+    .nev4
+    {
+        float: left;
+        margin-left: 1%;
+    }
+    .nev5
+    {
+        float: left;
+        margin-left: 1%;
+    }
+    .nev6
+    {
+        float: left;
+        margin-left: 1%;
+    }
+    .nev7
+    {
+        float: left;
+        margin-left: 1%;
+    }
+    .nev8
+    {
+        float: left;
+        margin-left: 1%;
+    }
+    .nev9
+    {
+        float: left;
+        margin-left: 1%;
+    }
+    .nev10
+    {
+        float: left;
+        margin-left: 1%;
+    } 
+    .nev img
+    {
+        width: 100%;
+        height: 95px;
+    }
+    .nev a
+    {
+        color: black;
+        text-decoration: none;
+        width: 100px;
+        height: 100px;
+    }
+    .slider
+    {
+        margin: 1%;
+        height: 350px;
+        background-color:white;
+    }
+    .slider img  
+    {
+        width: 100%;
+        height: 350px;
+    }
+    .content
+    {
+        width: 98%;
+        height: auto;
+        margin-left: 1%;
+    }
+    .Product-item-ad
+    {
+        
+        width: 78%;
+        height: 350px;
+        background-color: white;
+        float: left;
+    }
+    .Pia1
+    {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        width: 80%;
+        height: 90px;
+        float: left;
+        margin-left: 1%;
+    }
+    .Pia2
+    {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        width: 18%;
+        height: 90px;
+        float: right;
+        margin-right: 1%;
+    }
+    .Pia3
+    {
+        z-index: 0;
+        margin-top:3%;
+    }
+    .Product-ad
+    {
+        
+        width: 20%;
+        height: 350px;
+        background-color: white;
+        float: right;
+    }
+    .Pi1
+    {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        width: 80%;
+        height: 90px;
+        float: left;
+        margin-left: 1%;
+    }
+    .Pi2
+    {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        width: 18%;
+        height: 90px;
+        float: right;
+        margin-right: 1%;
+    }
+    .Pi3
+    {
+        z-index: 0;
+        margin-top:3%;
+    }
+    .Product-ad img
+    {
+        margin: 2%;
+        width: 96%;
+        height: 337px;
+    }
+    .Product
+    {
+        margin: 1%;
+        height: 350px;
+        background: white;
+    }
+    .clearfix
+    {
+        clear: both;
+    }
+    .story
+    {
+            margin: 1%;
+            width: 98%;
+            height: auto;
+            background-color: white;
+    }
+    .story h3
+    {
+        padding: 1%;
+        color: grey;
+    }
+    .story p
+    {
+        padding: 1%;
+        text-indent: 35px;
+        text-align: justify;
+        color: grey;
+    }
+    .footer
+    {
+        width: 100%;
+        height: 600px;
+        background-color:#14124f;
+    }
+    .lin1
+    {
+        margin-top:3%;
+        margin-left: 2%;
+        margin-right: 2%;
+        color: white;
+        float: left;
+        width: 45%;
+        height: 150px;
+    }
+    .lin2
+    {
+        float: left;
+        margin-top: 3%;
+        height: 150px;
+        border-left: 4px solid white;
+    }
+    .lin3
+    {
+        margin-top:3%;
+        margin-left: 2%;
+        margin-right: 2%;
+        color: white;
+        float: left;
+        width: 45%;
+        height: 150px;
+    }
+    .lin4
+    {
+        margin-left: 1%;
+        margin-right: 1%;
+        height:375px;
+        border-bottom: 4px solid white;
+    }
+    .lin5
+    {
+        float: left;
+    }
+    .l1 
+    {
+        float: left;
+        width: auto;
+        height: auto;
+    }
+    .l2 
+    {
+        float: left;
+        width: auto;
+        margin-left: 4%;
+        height: auto;
+    }
+    .l3 
+    {
+        float: left;
+        width: auto;
+        margin-left: 4%;
+        height: auto;
+    }
+    .l4 
+    {
+        float: left;
+        width: auto;
+        margin-left: 4%;
+        height: auto;
+    }
+    .l1 a,.l2 a,.l3 a,.l4 a
+    {
+        color: white;
+    }
+    .mailus
+    {
+        float: left;
+        width: 48%;
+        margin-left: 1%;
+        height: auto;
+    }
+    .ROA
+    {
+        float: left;
+        width: auto;
+        margin-left: 1%;
+        height: auto;
+    }
+</style>
+
+</head>
+<body>
+    <!-- Header div-->
+    <div class="head">
+        <div class="logo">
+            <img src="image/logo.png">
+        </div>
+        <div class="search" >
+            <form method="post">
+                <input type="text" name="search" placeholder="search heare...">
+            </form>
+        </div>
+        <div class="login">
+            <input type="button" name="loginbtn" value="Login">
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">Become a Seller</a>
+            
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">More >> </a>
+            
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#"><span class="fa fa-cart-arrow-down"> Cart</span> </a>
+            
+        </div>
+    </div>
+    
+    <!-- Nevbar div-->
+    <div class="nev">
+
+        <div class="nev1">
+            <table align="center">
+                <tr>
+                    <td>
+                        <a href="#"><img src="image/Top offer.png"><br><b>Top Offers</b></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    
+        <div class="nev2">
+            <table align="center">
+                <tr>
+                    <td>
+                        <a href="#"><img src="image/2.png"><br><b>Grocery</b></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="nev3">
+            <table align="center">
+                <tr>
+                    <td>
+                        <a href="#"><img src="image/mobile.png"><br><b>Mobile</b></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="nev4">
+            <table align="center">
+                <tr>
+                    <td>
+                        <a href="#"><img src="image/3.png"><br><b>Fashion</b></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="nev5">
+            <table align="center">
+                <tr>
+                    <td>
+                        <a href="#"><img src="image/electronics.png"><br><b>Electronics</b></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="nev6">
+            <table align="center">
+                <tr>
+                    <td>
+                        <a href="#"><img src="image/Home.png"><br><b>Home</b></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="nev7">
+            <table align="center">
+                <tr>
+                    <td>
+                        <a href="#"><img src="image/appliances.png"><br><b>Appliances</b></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="nev8">
+            <table align="center">
+                <tr>
+                    <td>
+                        <a href="#"><img src="image/travel.png"><br><b>Travel</b></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="nev9">
+            <table align="center">
+                <tr>
+                    <td>
+                        <a href="#"><img src="image/toy.png"><br><b>Beauty, Toys & More</b></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="nev10">
+            <table align="center">
+                <tr>
+                    <td>
+                        <a href="#"><img src="image/4.png"><br><b>Electric 2-Wheelers</b></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    
+    <!-- Slider div-->
+    <div class="slider">
+        <!-- <img src="image/slider1.jpg">
+        <img src="image/slider2.jpg">
+        <img src="image/slider4.jpg"> -->
+    </div>
+    
+    <!-- Content1 div-->
+    <div class="content">
+        <div class="Product-item-ad">
+            <div class="Pia1">
+                <h2>Best Of Best of Electronics<br></h2>
+                <h4 style="color: grey;">Best of Electronics</h4>
+                
+            </div>
+            <div class="Pia2">
+                <br>
+                <input style="background-color: blue;border: 0px;height: 50px;width: 125px;font-size: x-large;" type="button" name="bt" value="VIEW ALL">
+            </div>
+            <div class="Pia3"><hr></div>
+        </div>
+        
+        <div class="Product-ad">
+            <img src="image/ad.png">
+        </div>
+        
+        <div class="clearfix"></div>
+        
+        <div class="Product">
+            <div class="Pi1">
+                <h2>Beauty, Food, Toys & more<br></h2>
+                <h4 style="color: grey;">Beauty, Food, Toys & more</h4>
+                
+            </div>
+            <div class="Pi2">
+                <br>
+                <input style="background-color: blue;border: 0px;height: 50px;width: 125px;font-size: x-large;" type="button" name="bt" value="VIEW ALL">
+            </div>
+            <div class="Pi3"><hr></div>
+        </div>
+        
+        <div class="Product">
+            <div class="Pi1">
+                <h2>Big Savings on your favourites</h2>
+                
+            </div>
+            <div class="Pi2">
+                <br>
+                <input style="background-color: blue;border: 0px;height: 50px;width: 125px;font-size: x-large;" type="button" name="bt" value="VIEW ALL">
+            </div>
+            <div class="Pi3"><hr></div>
+        </div>
+        
+        
+    </div>
+
+    <!-- Our story -->
+    <div class="story">
+
+<h3>Flipkart: The One-stop Shopping Destination</h3>
+<p>E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.</p>
+
+<p>What's more, with our year-round shopping festivals and events, our prices are irresistible. We're sure you'll find yourself picking up more than what you had in mind. If you are wondering why you should shop from Flipkart when there are multiple options available to you, well, the below will answer your question.</p>
+
+<h3>Flipkart Plus</h3>
+<p>A world of limitless possibilities awaits you - Flipkart Plus was kickstarted as a loyalty reward programme for all its regular customers at zero subscription fee. All you need is 500 supercoins to be a part of this service. For every 100 rupees spent on Flipkart order, Plus members earns 4 supercoins & non-plus members earn 2 supercoins. Free delivery, early access during sales and shopping festivals, exchange offers and priority customer service are the top benefits to a Flipkart Plus member. In short, earn more when you shop more!
+
+What's more, you can even use the Flipkart supercoins for a number of exciting services, like:
+An annual Zomato Gold membership
+An annual Hotstar Premium membership
+6 months Gaana plus subscription
+Rupees 550 instant discount on flights on ixigo
+Check out https://www.flipkart.com/plus/all-offers for the entire list. Terms and conditions apply.</p>
+
+<h3>No Cost EMI</h3>
+<p>In an attempt to make high-end products accessible to all, our No Cost EMI plan enables you to shop with us under EMI, without shelling out any processing fee. Applicable on select mobiles, laptops, large and small appliances, furniture, electronics and watches, you can now shop without burning a hole in your pocket. If you've been eyeing a product for a long time, chances are it may be up for a no cost EMI. Take a look ASAP! Terms and conditions apply.</p>
+
+<h3>EMI on Debit Cards</h3>
+<p>Did you know debit card holders account for 79.38 crore in the country, while there are only 3.14 crore credit card holders? After enabling EMI on Credit Cards, in another attempt to make online shopping accessible to everyone, Flipkart introduces EMI on Debit Cards, empowering you to shop confidently with us without having to worry about pauses in monthly cash flow. At present, we have partnered with Axis Bank, HDFC Bank, State Bank of India and ICICI Bank for this facility. More power to all our shoppers! Terms and conditions apply.</p>
+
+<h3>Mobile Exchange Offers</h3>
+<p>Get an instant discount on the phone that you have been eyeing on. Exchange your old mobile for a new one after the Flipkart experts calculate the value of your old phone, provided it is in a working condition without damage to the screen. If a phone is applicable for an exchange offer, you will see the 'Buy with Exchange' option on the product description of the phone. So, be smart, always opt for an exchange wherever possible. Terms and conditions apply.</p>
+</div>
+
+    <!-- Footer div-->
+    <div class="footer">
+        <div class="lin1">
+            <div class="l1">
+                <b>ABOUT</b><br><br><br>
+                <a href="#">Contact Us</a><br><br>
+                <a href="#">About Us</a><br><br>
+                <a href="#">Careers</a><br><br>
+                <a href="#">Flipkart Stories</a><br><br>
+                <a href="#">Press</a><br><br>
+                <a href="#">Flipkart Wholesale</a><br><br>
+                <a href="#">Corporate Information</a><br><br>
+            </div>
+            <div class="l2">
+                <b>HELP</b> <br><br><br>
+                <a href="#">Payments</a><br><br>
+                <a href="#">Shipping</a><br><br>
+                <a href="#">Cancellations and Returns</a><br><br>
+                <a href="#">FAQ</a><br><br>
+                <a href="#">Report infringement</a><br><br>
+            </div>
+            <div class="l3">
+                <b>POLICY</b> <br><br><br>
+                <a href="#">Return Policy</a><br><br>
+                <a href="#">Terms Of Use</a><br><br>
+                <a href="#">Security</a><br><br>
+                <a href="#">Privacy</a><br><br>
+                <a href="#">Sitemap</a><br><br>
+                <a href="#">EPR Compliance</a><br><br>
+            </div>
+            <div class="l4">
+                <b>SOCIAL</b> <br><br><br>
+                <a href="#">Facebook</a><br><br>
+                <a href="#">Twitter</a><br><br>
+                <a href="#">YouTube</a><br><br>
+            </div>
+            
+        </div>
+        <div class="lin2">
+                <!-- vartical line -->
+        </div>
+        <div class="lin3">
+            <div class="mailus">
+                <b>Mail Us:</b><br><br><br>
+                Flipkart Internet Private Limited,<br>
+                Buildings Alyssa, Begonia &<br>
+                Clove Embassy Tech Village,<br>
+                Outer Ring Road, Devarabeesanahalli Village,<br>
+                Bengaluru, 560103,<br>
+                Karnataka, India<br>
+            </div>
+            <div class="ROA">
+                <b>Registered Office Address:</b><br><br><br>
+                Flipkart Internet Private Limited,<br>
+                Buildings Alyssa, Begonia &<br>
+                Clove Embassy Tech Village,<br>
+                Outer Ring Road, Devarabeesanahalli Village,<br>
+                Bengaluru, 560103,<br>
+                Karnataka, India<br>
+                CIN : U51109KA2012PTC066107<br>
+                Telephone: 044-45614700<br>
+            </div>
+        </div>
+
+        <div class="lin4">
+            <!-- horizontal line -->
+        </div>
+        
+        <div class="lin5">
+            <a href=""
+        </div>
+    </div>
+</body>
+</html>
