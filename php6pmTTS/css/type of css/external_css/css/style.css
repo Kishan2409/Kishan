@@ -1,0 +1,37 @@
+.main
+{
+    border: 1px solid aliceblue;
+    width:40%;
+    height: 700px;
+    margin: auto;
+    border-radius: 40px; 
+}
+.m1
+{
+    border-radius: 40px;
+    border: 1px solid aliceblue;
+    width: 50%;
+    margin: 5%;
+    height: 30%;
+}
+.c1
+{
+    border: 1px solid aliceblue;
+    border-radius: 40px;
+    margin: 10%;
+    width: 25%;
+    height: 31%;
+    float: left;
+}
+.c2
+{
+    width: 25%;border: 1px solid aliceblue;border-radius:40px;float: left;height: 31%;margin-left: 32%;
+}
+.msg
+{
+    font-size: xx-large;
+    color: white;
+    margin-top: 20%; 
+    margin-left: 3%;
+    width: 100%;
+}
