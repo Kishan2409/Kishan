@@ -1,0 +1,99 @@
+class : A class is a group of member and its member function
+           or 
+           A class is a blue print of object
+           or
+           A class is nothing whenever we can not create its object
+            
+            
+            syntax :
+            class classname
+            {
+                member function()
+                {
+                statements
+                }
+            }
+            
+          call object
+          call member function
+
+---------------------------------------------------------------------------------------------------------------
+
+abstract : when we create an class is abstract class we can't create object of abstract class
+if we want to access abstract class then we used inherit them. 
+
+---------------------------------------------------------------------------------------------------------------
+Constructor: A constructor is used same name of the class when we create an  object of class  constructor atomatically called.
+     types of constructor :
+         a)user defined constructor 
+         b)paranmetarized constructor 
+         c)default constructor 
+
+---------------------------------------------------------------------------------------------------------------
+ final class is never extends with another class
+ final method can't be override with another method
+
+---------------------------------------------------------------------------------------------------------------
+ 
+ Inheritance : One class property used by another class there we used inheritance
+              one class property used by nother class by extends keyword  
+        types of Inheritance 
+           a) single inheritance
+           b) multilevel inheritance 
+           c) multiple inheritance 
+
+---------------------------------------------------------------------------------------------------------------
+interface : Interfaces allow you to specify what methods a class should implement. Interfaces make it easy to use a variety of different classes in the same way.
+ interface just like to used to support multiple inheritance 
+ interface access another class property through implements 
+ interface defined by interface keyword
+---------------------------------------------------------------------------------------------------------------
+  object : object is an entity or collection of class 
+          object is instances of class 
+          object is defined with new keyword
+---------------------------------------------------------------------------------------------------------------
+ 
+what is oops ? 
+oops stands for object oriented programming structured 
+oops is used to secured your applications
+oops provides access midifier or specifier to protect your data
+     ex: private | public | protected
+oops is used to hide data | show data acording to user     
+MVC structured support oops
+mvc stands for model view and controller its used to create a dynamic web apps in php.
+diffrence between php4 | php 5 | php 7 and php8
+
+php4 :
+   php4 is a bsic php
+   php4 is proccedural based c language based
+   php4 less secured.
+   php4 is not provides magic methods 
+   php4 provides 3 levels of error        
+php 5:
+   php5 is advanced version of php4
+   php5 is support OOPS  based language
+   php5 is secured.
+   php5 is  provides magic methods 
+   php5 provides 3 levels of error         
+
+php 7:
+   php7 is advanced version of php5
+   php7 is support OOPS  based language
+   php7 is secured.
+   php7 is  provides magic methods 
+   php7 provides 4 levels of error i.e e_error(); 
+php 8:
+   php8 is advanced version of php7
+   php8 is support OOPS  based language
+   php8 is secured.
+   php8 is  provides magic methods 
+   php8 provides 4 levels of error i.e e_error();
+   php8 traits is defined and used in oops;
+---------------------------------------------------------------------------------------------------------------
+oops features :
+ a) class
+ b) object
+ c) inheritance 
+ d) polymorphism
+ e) abstract
+ f) encapsulation
