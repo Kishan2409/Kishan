@@ -1,0 +1,1 @@
+foreach : foreach loop is used to convert array as value.

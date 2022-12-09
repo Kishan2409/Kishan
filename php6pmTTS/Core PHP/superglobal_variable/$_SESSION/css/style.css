@@ -1,0 +1,85 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+}
+.header 
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.navbar ul li
+{
+    display: inline-block;
+    padding: 5px 25px;
+}
+.navbar a 
+{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+.navbar-brand 
+{
+    margin-left: 5%;
+}
+#log-btn 
+{
+    width: 100px;
+}
+.bi-facebook,.bi-twitter,.bi-whatsapp,.bi-instagram,.bi-github,.bi-cart 
+{
+    font-size: 22px;
+    letter-spacing: 8px;
+    margin-left: 1%;
+}
+.modal-dialog
+{
+    max-width: 60%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+}
+#btn-log
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border: none;
+}
+.email,.password 
+{
+    border: none;
+    border-bottom: solid 2px black;
+}
+#btn-log-register
+{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border: none;
+}
+#btn-log-reset
+{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    padding: 8px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border: none;
+    margin-left: 10%;
+}

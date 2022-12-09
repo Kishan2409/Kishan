@@ -1,0 +1,1 @@
+do will be executed once time while condition is true or false
