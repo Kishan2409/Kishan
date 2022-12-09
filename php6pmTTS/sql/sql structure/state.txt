@@ -1,0 +1,36 @@
+1.	Andaman & Nicobar Islands	744
+2.	Andhra Pradesh	50 - 53
+3.	Arunachal Pradesh	79
+4.	Assam	78
+5.	Bihar	80 - 85
+6.	Chandigarh	160
+7.	Chhattisgarh	49
+8.	Dadra and Nagar Haveli	396
+9.	Daman and Diu	396
+10.	Delhi	11
+11.	Goa	403
+12.	Gujarat	36 - 39
+13.	Haryana	12 - 13
+14.	Himachal Pradesh	17
+15.	Jammu and Kashmir	18 - 19
+16.	Jharkhand	80 - 83
+17.	Karnataka	56 - 59
+18.	Kerala	67 - 69
+19.	Lakshadweep	682
+20.	Madhya Pradesh	45 - 48
+21.	Maharashtra	40 - 44
+22.	Manipur	79
+23.	Meghalaya	79
+24.	Mizoram	79
+25.	Nagaland	79
+26.	Orissa	75 - 77
+27.	Pondicherry	609
+28.	Punjab	16 - 16
+29.	Rajasthan	30 - 34
+30.	Sikkim	737
+31.	Tamil Nadu	60 - 64
+32.	Telangana	50 - 53
+33.	Tripura	79
+34.	Uttar Pradesh	20 - 28
+35.	Uttarakhand	24 - 26
+36.	West Bengal	70 - 74

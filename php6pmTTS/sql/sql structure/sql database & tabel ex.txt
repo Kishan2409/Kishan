@@ -1,0 +1,23 @@
+-----------------------------------create database and table------------------------------
+
+
+-------------------------database-------------------------
+create database student;
+
+
+-------------------------table-------------------------
+create tabel std_details
+(
+    stu_id int PRIMARY KEY AUTO_INCREMENT,
+    usernm varchar(255),
+    firstname varchar(255),
+    secondname varchar(255),
+    lastname varchar(255),
+    address text,
+    dob date,
+    photo varchar(255),
+    email varchar(255),
+    pass varchar(255),
+    mobile bigint,
+    salary float
+);
