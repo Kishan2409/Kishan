@@ -1,0 +1,41 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+    overflow-x: hidden;
+}
+.clc 
+{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    margin-top: 5%;
+}
+.calculator 
+{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    background-color:gray;
+}
+::placeholder
+{
+    color: black;
+    font-size: 30px;
+}
+input 
+{
+    font-size: 30px;
+}
+
+#btn 
+{
+    width: 24.2%;
+    height: 35px;
+    background-color:green;
+    border: none !important;
+    color: white;
+
+}
