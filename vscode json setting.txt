@@ -1,0 +1,38 @@
+{
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "vikings-icon-theme",
+    "editor.fontSize": 10,
+    "editor.tabSize": 1,
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontLigatures": true,
+    "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "smooth",
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": false,
+    "workbench.settings.editor": "json",
+    "files.trimTrailingWhitespace": true,
+    "workbench.editor.tabSizing": "shrink",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "window.zoomLevel": 2,
+    "editor.linkedEditing": true,
+    "cSpell.enableFiletypes": [
+        "blade"
+    ],
+    "git.openRepositoryInParentFolders": "never",
+    "gitlens.advanced.messages": {
+        "suppressLineUncommittedWarning": true
+    },
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.stickyScroll.enabled": false,
+    "git.confirmSync": false,
+    "bootstrapIntelliSense.version": "Bootstrap v5.2"
+}

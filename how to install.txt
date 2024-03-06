@@ -1,0 +1,5 @@
+*get install extensions list*
+code --list-extensions > vscode-extensions.list
+
+*install new vs-code*
+Get-Content vscode-extensions.list | ForEach-Object { code --install-extension $_ }
